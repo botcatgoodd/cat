@@ -1,8 +1,8 @@
 local function run(msg, matches)
-  if not is_sudo(msg) then -- For Sudoers only !
-    return 'It is For Sudo Users'
+  if not is_sudo(msg) then -- For admins only !
+    return 'ًں–•ًں–•ًں–•ًں–•ًں–•ًں–•ًں–•ًں–•ًں–•ًں–•ًں–•ًں–•'
   end
-	if matches[1] == 'sms' and is_sudo(msg) then
+	if matches[1] == 'pv' and is_admin(msg) then
 		local response = matches[3]
 		send_large_msg("user#id"..matches[2], response)
 						local receiver = 'user#id'..user_id
@@ -11,7 +11,10 @@ local function run(msg, matches)
 	end
 return {
   patterns = {
-    "^[!/,@*)(p#><\](pv) (%d+) (.*)$"
+    "^[!/](pv) (%d+) (.*)$"
   },
   run = run
 }
+--Sends Pm To Users Pv With Fuck Emoji😂😂
+--https://github.com/ThisIsArman
+    --Telegram.me/ThisIsArman
