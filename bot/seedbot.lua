@@ -250,6 +250,9 @@ function create_config( )
       
       channel: @telemirrorch
       
+      special thanks to:
+      @salvador_hacker
+      
       😉😉😉😉😉
       
       
