@@ -219,6 +219,7 @@ function create_config( )
     "arabic_lock",
     "set",
     "get",
+    "bin",
     "broadcast",
     "Auto_Leave",
     "Block",
